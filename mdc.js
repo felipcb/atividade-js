@@ -1,4 +1,5 @@
 //>>>Aporoach 02<<<
+//-------Inicio-------\\
 const num1=27, num2=36;
 var i=2, init=0, meuLoop=0, result=1;
 var mdc=[];
@@ -27,6 +28,7 @@ for (let index = 0; index < mdc.length; index++) {
 
 console.log(result)
 
+//-------Fim-------\\
 
 
 /*
