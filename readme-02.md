@@ -17,8 +17,13 @@ pre-condicoes
     
 cheats
     //alterar o nome da branch local
-        git branch -m novo-nome 
-
+        git branch -m novo-nome
+    //Deletar branch Local  
+        git branch -d nome-da-branch
+    //Deletar branch remota antiga  
+        git push origin --delete nome-antigo
+    //trocar de branch
+        git switch nome-da-branch
 
 
 
