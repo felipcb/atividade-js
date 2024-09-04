@@ -1,33 +1,42 @@
 //>>>Aporoach 02<<<
 //-------Inicio-------\\
 const num1=27, num2=36;
-var i=2, init=0, meuLoop=0, result=1;
-var mdc=[];
 
-meuLoop = Math.max(num1,num2);
-let temp1 = num1, temp2 =num2;
 
-while (init<meuLoop){
-    i=2;
-    for (i; i < meuLoop; i++) {
-        if(temp1%i==0 && temp2%i==0){
-            mdc.push(i)
-            temp1=temp1/i;
-            temp2=temp2/i;
-            break;
-        } 
+
+function Mdc(num1, num2) {
+    var i=2, init=0, meuLoop=0, result=1;
+    var mdc=[];
+
+    meuLoop = Math.max(num1,num2);
+    let temp1 = num1, temp2 =num2;
+
+    while (init<meuLoop){
+        i=2;
+        for (i; i < meuLoop; i++) {
+            if(temp1%i==0 && temp2%i==0){
+                mdc.push(i)
+                temp1=temp1/i;
+                temp2=temp2/i;
+                break;
+            } 
+        }
+        init++;
     }
-    init++;
-}
-console.log(mdc)
-
-for (let index = 0; index < mdc.length; index++) {
     console.log(mdc)
-    result *= mdc[index];
+
+    for (let index = 0; index < mdc.length; index++) {
+        console.log(mdc)
+        result *= mdc[index];
+    }
+    
+    return result;
+     
 }
 
-console.log(result)
 
+
+module.exports = { Mdc }
 //-------Fim-------\\
 
 
