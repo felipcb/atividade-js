@@ -22,6 +22,8 @@ function maximo() {
     return temp;
 }
 
-
+/*
 console.log(`O índice de menor valor no array é: ${minimo()}`)
 console.log(`O índice de Maior valor no array é: ${maximol()}`)
+*/
+module.exports = { minimo, maximo };

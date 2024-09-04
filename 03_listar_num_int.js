@@ -37,3 +37,5 @@ for (let index = 0; index < numerosMultiplos.length; index++) {
 //Printar a soma dos múltiplos de 5 e 7 de 1 a 1000.
 console.log(`A soma dos múltiplos de 5 e 7 no intervalo de 1 a 1000 é:
 ${somaDosMultiplos}`);
+
+module.exports = { multiplos}
