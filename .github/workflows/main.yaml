@@ -3,9 +3,13 @@ name: EBAC CI
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - master
+      - CI
   pull_request:
-    branches: [ main ]
+    branches: 
+      - master
+      - CI
   workflow_dispatch:
 
 jobs:
