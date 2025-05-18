@@ -4,7 +4,8 @@
   "description": "1) iniciar o git na pasta do projeto.\r     Digitar no cmd: git init",
   "main": "01_mdc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose",
+    "test:unit": "jest"
   },
   "keywords": [],
   "author": "",
