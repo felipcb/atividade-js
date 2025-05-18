@@ -1,6 +1,9 @@
 # .github/workflows/main.yml
 name: EBAC CI
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: 
